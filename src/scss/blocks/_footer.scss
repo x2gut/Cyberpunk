@@ -1,0 +1,39 @@
+.footer {
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 13px 0px;
+}
+
+.footer__left {
+  display: flex;
+  gap: 32px;
+}
+
+.footer__right {
+  display: flex;
+  gap: 32px;
+}
+
+.footer__link {
+  color: #000;
+  font-size: 18px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 12px;
+  height: 40px;
+  background-color: #000;
+}

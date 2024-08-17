@@ -1,0 +1,31 @@
+.header {
+  position: relative;
+  z-index: 1;
+}
+
+.header__container {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  max-width: 296px;
+  max-height: 74px;
+}
+
+.header__socials {
+  display: flex;
+  gap: clamp(28px, 2.1vw, 40px);
+}
+
+.header__social {
+  & svg {
+    transition: transform 0.11s ease-in;
+  }
+
+  & svg:hover {
+    transform: scale(1.05);
+  }
+}

@@ -1,0 +1,169 @@
+@media (max-width: 1024px) {
+  .about__imgs {
+    flex-wrap: wrap;
+  }
+
+  .about__left {
+    max-width: 952px !important;
+    flex-direction: row !important;
+  }
+
+  .about__main {
+    height: 424px !important;
+    max-width: 952px !important;
+    width: 100%;
+  }
+
+  .game__top,
+  .game__form {
+    max-width: 460px;
+  }
+
+  .game__title {
+    padding-top: 100px;
+    padding-left: 0 !important;
+  }
+
+  .game__img {
+    &-desktop {
+      display: none !important;
+    }
+
+    &-tablet {
+      display: flex !important;
+      transform: translateY(-40%);
+    }
+  }
+
+  .promo__main-img {
+    min-width: 360px !important;
+  }
+
+  .promo__logos {
+    flex-direction: column;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 840px) {
+  .promo__container {
+    flex-direction: column;
+  }
+
+  .promo__main-img {
+    min-width: 200px !important;
+  }
+
+  .promo__logos {
+    flex-direction: row;
+  }
+
+  .features__item {
+    padding-left: 60px !important;
+  }
+}
+
+@media (max-width: 725px) {
+  .header__container {
+    justify-content: center !important;
+    flex-wrap: wrap;
+  }
+
+  .hero__bg {
+    margin-top: -128px !important;
+  }
+
+  .game__top {
+    padding-top: 10px;
+    max-width: none !important;
+    width: 100%;
+  }
+
+  .game__title {
+    padding-top: 50px !important;
+
+    &::after {
+      width: 62px !important;
+      height: 62px !important;
+      top: -250% !important;
+    }
+  }
+
+  .game__wrapper {
+    position: relative;
+    max-width: 296px;
+  }
+
+  .game__img {
+    &-tablet {
+      display: none !important;
+    }
+
+    &-phone {
+      width: 100% !important;
+      display: flex !important;
+      transform: translateY(50%);
+    }
+  }
+  .buy__wrapper {
+    flex-direction: column;
+  }
+
+  .buy__right {
+    padding-top: 40px !important;
+    padding-bottom: 70px;
+  }
+
+  .buy__kit {
+    padding-bottom: 40px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .about__left {
+    flex-wrap: wrap;
+  }
+
+  .hero__container {
+    padding: 0;
+  }
+
+  .hero__info {
+    margin-bottom: -45px;
+  }
+
+  .about__container {
+    padding-top: 115px !important;
+  }
+
+  .game__container {
+    max-height: 1400px !important;
+  }
+
+  .promo__logos span {
+    min-width: 70px !important;
+    margin: 0 15px !important;
+  }
+
+  .promo__title {
+    line-height: 100% !important;
+  }
+
+  .footer__container {
+    margin-top: 40px;
+    gap: 50px !important;
+  }
+
+  .footer__left,
+  .footer__right {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer__right {
+    gap: 15px !important;
+  }
+}

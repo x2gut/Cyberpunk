@@ -1,0 +1,17 @@
+@import "./fonts";
+@import "./globals";
+@import "./reset";
+@import "./utils";
+@import "./vars";
+@import "./media";
+
+// BLOCKS
+
+@import "blocks/btn";
+@import "blocks/header";
+@import "blocks/hero";
+@import "blocks/about";
+@import "blocks/game";
+@import "blocks/promo";
+@import "blocks/buy";
+@import "blocks/footer";

@@ -1,0 +1,99 @@
+.promo {
+  background-color: #f8f200;
+}
+
+.promo__container {
+  padding-top: 140px;
+  padding-bottom: 70px;
+  display: flex;
+  gap: 32px;
+}
+
+.promo__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo__main-img {
+  padding-bottom: 26px;
+  min-width: 400px;
+}
+
+.promo__logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  & span {
+    min-width: 90px;
+    height: 20px;
+    background-image: url("/src/img/Icons/promo_logo_content.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+  }
+}
+
+.promo__logo-hp {
+}
+
+.promo__logo-cyberpunk {
+}
+
+.promo__right {
+  display: flex;
+  flex-direction: column;
+  max-width: 624px;
+}
+
+.promo__title {
+  font-size: 62px;
+  line-height: 63px;
+  padding-bottom: 25px;
+}
+
+.promo__text {
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 400;
+  padding-bottom: 25px;
+}
+
+.promo__features {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  padding-bottom: 40px;
+}
+
+.features__item {
+  padding-left: 42px;
+  font-size: 18px;
+  line-height: 21px;
+
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-size: 24px;
+}
+
+.item-1 {
+  background-image: url("/src/img/Icons/color_lens.svg");
+}
+
+.item-2 {
+  background-image: url("/src/img//Icons/auto_awesome.svg");
+}
+
+.item-3 {
+  background-image: url("/src/img//Icons/auto_awesome_motion.svg");
+}
+
+.promo__btn {
+  max-width: 196px;
+  font-size: 18px;
+}
+
+.btn--black {
+}
